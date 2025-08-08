@@ -1,5 +1,7 @@
-Object Detection and Voice Guidance System for the Visually Impaired
-Project Overview
+**Object Detection and Voice Guidance System for the Visually Impaired**
+
+**Project Overview**
+
 The Object Detection and Voice Guidance System is a smart, AI-powered assistive tool designed to enhance the situational awareness of visually impaired users. Leveraging real-time computer vision and audio feedback, the system detects nearby objects, estimates their distance, and provides spoken alerts — allowing the user to make safe navigation decisions, especially in dynamic environments like roads or public spaces.
 
 Real-Time Object Detection: Detects all objects in the camera’s view using the YOLOv3 deep learning model.
