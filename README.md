@@ -4,7 +4,8 @@
 
 The Object Detection and Voice Guidance System is a smart, AI-powered assistive tool designed to enhance the situational awareness of visually impaired users. Leveraging real-time computer vision and audio feedback, the system detects nearby objects, estimates their distance, and provides spoken alerts — allowing the user to make safe navigation decisions, especially in dynamic environments like roads or public spaces.
 
-Real-Time Object Detection: Detects all objects in the camera’s view using the YOLOv3 deep learning model.
+**Real-Time Object Detection:**
+Detects all objects in the camera’s view using the YOLOv3 deep learning model.
 
 Distance Estimation: Approximates how far each object is from the user and prioritizes nearby threats.
 
@@ -20,7 +21,8 @@ Multi-Object Awareness: Describes multiple objects with distance and position in
 
 Portable Setup: Works on standard laptops or embedded systems with a webcam.
 
- System Architecture
+** System Architecture**
+
 Camera/Webcam: Captures live video feed.
 
 YOLOv3 Model: Detects and classifies objects.
@@ -34,7 +36,8 @@ Text-to-Speech Engine (pyttsx3): Converts object and distance data into audible 
 Main Logic (v2.py): Core system logic that ties detection, direction, voice feedback, and motion alerting.
 
 
- Technologies Used
+ **Technologies Used**
+ 
 Programming Language: Python
 
 Libraries: OpenCV, NumPy, pyttsx3, YOLOv3 (Darknet), imutils
@@ -42,3 +45,25 @@ Libraries: OpenCV, NumPy, pyttsx3, YOLOv3 (Darknet), imutils
 Model: Pre-trained YOLOv3 for object detection
 
 Audio Engine: pyttsx3 (offline TTS)
+
+**Usage**
+
+Start Camera: Application opens webcam and begins scanning.
+
+Voice Alerts: Spoken feedback announces object type, distance, and movement.
+
+Real-Time Decision Making: System provides left/right movement suggestions for safety.
+
+**Future Enhancements**
+
+GPS integration for outdoor navigation.
+
+Dynamic learning model for personalized object detection.
+
+Support for multi-camera environment.
+
+Integration with smart wearable devices.
+
+Multilingual voice feedback.
+
+
